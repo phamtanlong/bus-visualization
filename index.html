@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- hiển thị tốt trên mobile -->
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+
+	<body>
+
+		<!-- <button id="btnShowHide" onclick="document.getElementById('div-input').classList.toggle('closed');">Show/Hide Controls</button>
+		<div id="div-input" class="slider"> 
+			<textarea id="input" rows="30" cols="20"></textarea>
+			</br>
+			<button id="btnView" onclick="loadNewData()">View</button>
+			</br>
+			<input id="checkShowMap" type="checkbox" checked onchange="showMap(this.checked)">Show map
+			</br>
+			<input id="checkShowVertical" type="checkbox" onchange="showVertical(this.checked)">Show vertical
+			</br>
+			<input id="checkShowHorizontal" type="checkbox" onchange="checkShowHorizontal(this.checked)">Show vertical
+		</div> -->
+
+		<div id="container"></div>
+
+		<!-- library threejs -->
+		<script src="js/three.min.js"></script>
+		<script src="js/OrbitControls.js"></script>
+		<script src="js/TrackballControls.js"></script>
+		<script src="js/PointerLockControls.js"></script>
+		<script src="js/Detector.js"></script>
+		<script src="js/stats.min.js"></script>
+		
+		<script src='js/THREEx.FullScreen.js'></script>
+		<script src='js/THREEx.WindowResize.js'></script>
+		<!-- library threejs -->
+
+		<!-- font, not need to know -->
+		<script src="font/optimer_bold.typeface.js"></script>
+		<script src="font/optimer_regular.typeface.js"></script>
+		<!-- font -->
+		
+		<!-- main function -->
+		<script src="MyUltils.js"></script>
+
+		<script src="global.js"></script>
+		<script src="data.js"></script>
+		<script src="drawchart.js"></script>
+		<script src="raycasting.js"></script>
+
+		<!-- main function -->
+		<script src="main.js"></script>
+	</body>
+</html>
